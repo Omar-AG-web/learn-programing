@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="ar"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>تحميل دروس البرمجة</title> <!-- تضمين مكتبة Font Awesome --> 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="styles.css"> 
+  <style>
+        /* تصميم سريع */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        header img {
+            width: 80px;
+            height: 80px;
+        }
+        .languages {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 180px;
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .card i {
+            font-size: 3rem;
+            color: #2575fc;
+            margin-bottom: 10px;
+        }
+        .card h4 {
+            margin: 10px 0;
+            font-size: 1.2rem;
+            color: #333;
+        }
+        footer {
+            background: #6a11cb;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style> 
+ <style type="text/css" id="dcoder_stylesheet">/* Reset */
+body, h1, h4, p, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.languages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px auto;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 180px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card i {
+    font-size: 3rem;
+    color: #2575fc;
+    margin-bottom: 10px;
+}
+
+.card h4 {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    background-color: #6a11cb;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 30px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 0.9rem;
+}</style></head> 
+ <body> 
+  <header> <!-- شعار البرمجة --> 
+   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="Programming Logo"> 
+  </header> 
+  <main> 
+   <div class="languages"> <!-- بطاقة Python --> 
+    <div class="card" data-pdf="https://www.w3.org/WAI/WCAG21/quickref/files/WCAG2.1-QuickRef.pdf"> <i class="fab fa-python"></i> 
+     <h4>Python</h4> 
+    </div> <!-- بطاقة JavaScript --> 
+    <div class="card" data-pdf="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction"> <i class="fab fa-js-square"></i> 
+     <h4>JavaScript</h4> 
+    </div> <!-- بطاقة Java --> 
+    <div class="card" data-pdf="https://www.oracle.com/java/technologies/javase/jdk14-archive.html"> <i class="fab fa-java"></i> 
+     <h4>Java</h4> 
+    </div> <!-- بطاقة C++ --> 
+    <div class="card" data-pdf="https://www.cplusplus.com/doc/tutorial/"> <i class="fab fa-cuttlefish"></i> 
+     <h4>C++</h4> 
+    </div> <!-- بطاقة HTML/CSS --> 
+    <div class="card" data-pdf="https://www.w3schools.com/html/html_intro.asp"> <i class="fab fa-html5"></i> 
+     <h4>HTML/CSS</h4> 
+    </div> <!-- بطاقة PHP --> 
+    <div class="card" data-pdf="https://www.php.net/docs.php"> <i class="fab fa-php"></i> 
+     <h4>PHP</h4> 
+    </div> <!-- بطاقة C# --> 
+    <div class="card" data-pdf="https://learn.microsoft.com/en-us/dotnet/csharp/"> <i class="fab fa-microsoft"></i> 
+     <h4>C#</h4> 
+    </div> <!-- بطاقة Ruby --> 
+    <div class="card" data-pdf="https://www.ruby-lang.org/en/documentation/"> <i class="fas fa-gem"></i> 
+     <h4>Ruby</h4> 
+    </div> <!-- بطاقة Kotlin --> 
+    <div class="card" data-pdf="https://kotlinlang.org/docs/home.html"> <i class="fas fa-mobile-alt"></i> 
+     <h4>Kotlin</h4> 
+    </div> <!-- بطاقة Swift --> 
+    <div class="card" data-pdf="https://developer.apple.com/swift/"> <i class="fab fa-apple"></i> 
+     <h4>Swift</h4> 
+    </div> 
+   </div> 
+  </main> 
+  <footer> 
+   <p>حقوق الطبع والنشر © 2024. جميع الحقوق محفوظة.</p> 
+  </footer> 
+  <script>
+        // الحصول على جميع البطاقات
+        const cards = document.querySelectorAll('.card');
+
+        // إضافة حدث النقر لكل بطاقة
+        cards.forEach(card => {
+            card.addEventListener('click', () => {
+                const pdfUrl = card.getAttribute('data-pdf');
+                const language = card.querySelector('h4').textContent;
+                const confirmDownload = confirm(`هل تريد تحميل ملف تعلم ${language}؟`);
+                if (confirmDownload) {
+                    window.open(pdfUrl, '_blank');
+                }
+            });
+        });
+    </script> 
+ 
+<script type="text/javascript" id="dcoder_script">let pageEnterTime = Date.now();
+
+// تحقق من الوقت الذي مر منذ دخول المستخدم
+window.onbeforeunload = function() {
+    let pageExitTime = Date.now();
+    let timeSpent = (pageExitTime - pageEnterTime) / 1000; // الوقت بالثواني
+    if (timeSpent < 10) { // إذا كانت الزيارة قصيرة جدًا (قد تكون روبوتًا)
+        alert("يرجى التأكد من أنك لست روبوتًا.");
+    }
+};</script></body></html>
